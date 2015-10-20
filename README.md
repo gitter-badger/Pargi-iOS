@@ -7,6 +7,7 @@ Pargi rakendus iPhone'le. Pargi on sinu abimees mobiilsel parkimisel, siin toimu
 Projekt on algusfaasis, kogu olemasolev kood on kõrvale pandud ning alustatud on nullist. Hetkel on peamine fookus mudelil ja andmetel ning nende sobival vahendamisel veebist telefoni. Parklate andmed ise leiad [siit](https://github.com/pargi/data). Eesmärgiks on kasutada võimalikult palju Swiftile iseloomulikke ja uudseid võtteid, eesmärgiga muuta kood seeläbi loetavamaks ja paremaks näidiseks sellest, milleks Swift võimeline on. Näiteks, mudelikihi puhul eelistatakse klassidele struktuure ning eesmärgiks on pakkuda nii täpset tüübikindlust kui võimalik.
 
 Esialgne tööplaan:
+
 1. Taastada olemasolev funktsionaalsus praegusest App Store versioonist.
 2. Planeerida ja implementeerida uus visuaal ja interaktsioon kogu rakendusele, pannes rõhku kiirusele ja effektiivsusele (näiteks kasutades iOS 9 ja iPhone 6s peal 3D Touchi).
 3. Analüüsida kriitilise koodi kiirust ja turvalisust, vähendamaks hangumisi ja kiirendamaks tuumfunktsionaalsust.
