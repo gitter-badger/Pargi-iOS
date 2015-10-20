@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E39CDF31BCC414C004444B6 /* Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E39CDF21BCC414C004444B6 /* Fetchable.swift */; settings = {ASSET_TAGS = (); }; };
+		8E39CDF51BCC4193004444B6 /* UniquelyPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E39CDF41BCC4193004444B6 /* UniquelyPersistable.swift */; settings = {ASSET_TAGS = (); }; };
+		8E4F53B51BC90F91004D2263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F53B41BC90F91004D2263 /* AppDelegate.swift */; };
+		8E4F53BF1BC90F91004D2263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F53BE1BC90F91004D2263 /* Assets.xcassets */; };
+		8E4F53CD1BC90F91004D2263 /* PargiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F53CC1BC90F91004D2263 /* PargiTests.swift */; };
+		8E4F53D81BC90F91004D2263 /* PargiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F53D71BC90F91004D2263 /* PargiUITests.swift */; };
+		8E4F53F01BC9111F004D2263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F53EC1BC9111F004D2263 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8E4F53F61BC91125004D2263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F53F21BC91125004D2263 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		8E4F53F71BC91125004D2263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4F53F41BC91125004D2263 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		8E4F53FA1BC911E4004D2263 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F53F91BC911E4004D2263 /* DataStore.swift */; settings = {ASSET_TAGS = (); }; };
+		8E4F53FD1BC913D1004D2263 /* Pargi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F53FB1BC913D1004D2263 /* Pargi.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		8E4F53FF1BC92530004D2263 /* Zone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F53FE1BC92530004D2263 /* Zone.swift */; settings = {ASSET_TAGS = (); }; };
+		8E4F54021BC9268F004D2263 /* Tariff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F54011BC9268F004D2263 /* Tariff.swift */; settings = {ASSET_TAGS = (); }; };
+		8E4F54041BC92934004D2263 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F54031BC92934004D2263 /* Provider.swift */; settings = {ASSET_TAGS = (); }; };
+		8E4F54061BC929A0004D2263 /* ParkEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F54051BC929A0004D2263 /* ParkEvent.swift */; settings = {ASSET_TAGS = (); }; };
+		8E4F54081BC956DA004D2263 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F54071BC956DA004D2263 /* Car.swift */; settings = {ASSET_TAGS = (); }; };
+		8E4F540A1BC9576B004D2263 /* ZoneGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F54091BC9576B004D2263 /* ZoneGroup.swift */; settings = {ASSET_TAGS = (); }; };
+		8E4F540D1BC9580C004D2263 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4F540C1BC9580C004D2263 /* Persistable.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E4F53C91BC90F91004D2263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E4F53A91BC90F91004D2263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E4F53B01BC90F91004D2263;
+			remoteInfo = Pargi;
+		};
+		8E4F53D41BC90F91004D2263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E4F53A91BC90F91004D2263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E4F53B01BC90F91004D2263;
+			remoteInfo = Pargi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E39CDF21BCC414C004444B6 /* Fetchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetchable.swift; sourceTree = "<group>"; };
+		8E39CDF41BCC4193004444B6 /* UniquelyPersistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniquelyPersistable.swift; sourceTree = "<group>"; };
+		8E4F53B11BC90F91004D2263 /* Pargi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pargi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4F53B41BC90F91004D2263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E4F53BE1BC90F91004D2263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E4F53C31BC90F91004D2263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4F53C81BC90F91004D2263 /* PargiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PargiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4F53CC1BC90F91004D2263 /* PargiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PargiTests.swift; sourceTree = "<group>"; };
+		8E4F53CE1BC90F91004D2263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4F53D31BC90F91004D2263 /* PargiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PargiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4F53D71BC90F91004D2263 /* PargiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PargiUITests.swift; sourceTree = "<group>"; };
+		8E4F53D91BC90F91004D2263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4F53EC1BC9111F004D2263 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E4F53F31BC91125004D2263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E4F53F51BC91125004D2263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E4F53F91BC911E4004D2263 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		8E4F53FC1BC913D1004D2263 /* Pargi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pargi.xcdatamodel; sourceTree = "<group>"; };
+		8E4F53FE1BC92530004D2263 /* Zone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zone.swift; sourceTree = "<group>"; };
+		8E4F54011BC9268F004D2263 /* Tariff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tariff.swift; sourceTree = "<group>"; };
+		8E4F54031BC92934004D2263 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		8E4F54051BC929A0004D2263 /* ParkEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkEvent.swift; sourceTree = "<group>"; };
+		8E4F54071BC956DA004D2263 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		8E4F54091BC9576B004D2263 /* ZoneGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoneGroup.swift; sourceTree = "<group>"; };
+		8E4F540C1BC9580C004D2263 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E4F53AE1BC90F91004D2263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4F53C51BC90F91004D2263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4F53D01BC90F91004D2263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E4F53A81BC90F91004D2263 = {
+			isa = PBXGroup;
+			children = (
+				8E4F53B31BC90F91004D2263 /* Pargi */,
+				8E4F53CB1BC90F91004D2263 /* PargiTests */,
+				8E4F53D61BC90F91004D2263 /* PargiUITests */,
+				8E4F53B21BC90F91004D2263 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4F53B21BC90F91004D2263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F53B11BC90F91004D2263 /* Pargi.app */,
+				8E4F53C81BC90F91004D2263 /* PargiTests.xctest */,
+				8E4F53D31BC90F91004D2263 /* PargiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E4F53B31BC90F91004D2263 /* Pargi */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F53B41BC90F91004D2263 /* AppDelegate.swift */,
+				8E4F53EB1BC9111F004D2263 /* Controller */,
+				8E4F53ED1BC9111F004D2263 /* Model */,
+				8E4F53EF1BC9111F004D2263 /* View */,
+				8E4F53F81BC91129004D2263 /* Storyboard */,
+				8E4F53BE1BC90F91004D2263 /* Assets.xcassets */,
+				8E4F53C31BC90F91004D2263 /* Info.plist */,
+			);
+			path = Pargi;
+			sourceTree = "<group>";
+		};
+		8E4F53CB1BC90F91004D2263 /* PargiTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F53CC1BC90F91004D2263 /* PargiTests.swift */,
+				8E4F53CE1BC90F91004D2263 /* Info.plist */,
+			);
+			path = PargiTests;
+			sourceTree = "<group>";
+		};
+		8E4F53D61BC90F91004D2263 /* PargiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F53D71BC90F91004D2263 /* PargiUITests.swift */,
+				8E4F53D91BC90F91004D2263 /* Info.plist */,
+			);
+			path = PargiUITests;
+			sourceTree = "<group>";
+		};
+		8E4F53EB1BC9111F004D2263 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F53EC1BC9111F004D2263 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E4F53ED1BC9111F004D2263 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F53FB1BC913D1004D2263 /* Pargi.xcdatamodeld */,
+				8E4F53F91BC911E4004D2263 /* DataStore.swift */,
+				8E4F540B1BC957FE004D2263 /* Protocols */,
+				8E4F54071BC956DA004D2263 /* Car.swift */,
+				8E4F54051BC929A0004D2263 /* ParkEvent.swift */,
+				8E4F54031BC92934004D2263 /* Provider.swift */,
+				8E4F53FE1BC92530004D2263 /* Zone.swift */,
+				8E4F54091BC9576B004D2263 /* ZoneGroup.swift */,
+				8E4F54011BC9268F004D2263 /* Tariff.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E4F53EF1BC9111F004D2263 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E4F53F81BC91129004D2263 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F53F21BC91125004D2263 /* LaunchScreen.storyboard */,
+				8E4F53F41BC91125004D2263 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		8E4F540B1BC957FE004D2263 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F540C1BC9580C004D2263 /* Persistable.swift */,
+				8E39CDF41BCC4193004444B6 /* UniquelyPersistable.swift */,
+				8E39CDF21BCC414C004444B6 /* Fetchable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E4F53B01BC90F91004D2263 /* Pargi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4F53DC1BC90F91004D2263 /* Build configuration list for PBXNativeTarget "Pargi" */;
+			buildPhases = (
+				8E4F53AD1BC90F91004D2263 /* Sources */,
+				8E4F53AE1BC90F91004D2263 /* Frameworks */,
+				8E4F53AF1BC90F91004D2263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pargi;
+			productName = Pargi;
+			productReference = 8E4F53B11BC90F91004D2263 /* Pargi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E4F53C71BC90F91004D2263 /* PargiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4F53DF1BC90F91004D2263 /* Build configuration list for PBXNativeTarget "PargiTests" */;
+			buildPhases = (
+				8E4F53C41BC90F91004D2263 /* Sources */,
+				8E4F53C51BC90F91004D2263 /* Frameworks */,
+				8E4F53C61BC90F91004D2263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4F53CA1BC90F91004D2263 /* PBXTargetDependency */,
+			);
+			name = PargiTests;
+			productName = PargiTests;
+			productReference = 8E4F53C81BC90F91004D2263 /* PargiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E4F53D21BC90F91004D2263 /* PargiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4F53E21BC90F91004D2263 /* Build configuration list for PBXNativeTarget "PargiUITests" */;
+			buildPhases = (
+				8E4F53CF1BC90F91004D2263 /* Sources */,
+				8E4F53D01BC90F91004D2263 /* Frameworks */,
+				8E4F53D11BC90F91004D2263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E4F53D51BC90F91004D2263 /* PBXTargetDependency */,
+			);
+			name = PargiUITests;
+			productName = PargiUITests;
+			productReference = 8E4F53D31BC90F91004D2263 /* PargiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E4F53A91BC90F91004D2263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Henri Normak";
+				TargetAttributes = {
+					8E4F53B01BC90F91004D2263 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8E4F53C71BC90F91004D2263 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8E4F53B01BC90F91004D2263;
+					};
+					8E4F53D21BC90F91004D2263 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8E4F53B01BC90F91004D2263;
+					};
+				};
+			};
+			buildConfigurationList = 8E4F53AC1BC90F91004D2263 /* Build configuration list for PBXProject "Pargi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E4F53A81BC90F91004D2263;
+			productRefGroup = 8E4F53B21BC90F91004D2263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E4F53B01BC90F91004D2263 /* Pargi */,
+				8E4F53C71BC90F91004D2263 /* PargiTests */,
+				8E4F53D21BC90F91004D2263 /* PargiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E4F53AF1BC90F91004D2263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4F53F71BC91125004D2263 /* Main.storyboard in Resources */,
+				8E4F53BF1BC90F91004D2263 /* Assets.xcassets in Resources */,
+				8E4F53F61BC91125004D2263 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4F53C61BC90F91004D2263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4F53D11BC90F91004D2263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E4F53AD1BC90F91004D2263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E39CDF31BCC414C004444B6 /* Fetchable.swift in Sources */,
+				8E4F53F01BC9111F004D2263 /* ViewController.swift in Sources */,
+				8E4F53FD1BC913D1004D2263 /* Pargi.xcdatamodeld in Sources */,
+				8E4F54061BC929A0004D2263 /* ParkEvent.swift in Sources */,
+				8E4F540A1BC9576B004D2263 /* ZoneGroup.swift in Sources */,
+				8E4F54041BC92934004D2263 /* Provider.swift in Sources */,
+				8E4F53FF1BC92530004D2263 /* Zone.swift in Sources */,
+				8E4F54081BC956DA004D2263 /* Car.swift in Sources */,
+				8E4F54021BC9268F004D2263 /* Tariff.swift in Sources */,
+				8E39CDF51BCC4193004444B6 /* UniquelyPersistable.swift in Sources */,
+				8E4F540D1BC9580C004D2263 /* Persistable.swift in Sources */,
+				8E4F53FA1BC911E4004D2263 /* DataStore.swift in Sources */,
+				8E4F53B51BC90F91004D2263 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4F53C41BC90F91004D2263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4F53CD1BC90F91004D2263 /* PargiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4F53CF1BC90F91004D2263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4F53D81BC90F91004D2263 /* PargiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E4F53CA1BC90F91004D2263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E4F53B01BC90F91004D2263 /* Pargi */;
+			targetProxy = 8E4F53C91BC90F91004D2263 /* PBXContainerItemProxy */;
+		};
+		8E4F53D51BC90F91004D2263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E4F53B01BC90F91004D2263 /* Pargi */;
+			targetProxy = 8E4F53D41BC90F91004D2263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E4F53F21BC91125004D2263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4F53F31BC91125004D2263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8E4F53F41BC91125004D2263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E4F53F51BC91125004D2263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E4F53DA1BC90F91004D2263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E4F53DB1BC90F91004D2263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E4F53DD1BC90F91004D2263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pargi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnormak.Pargi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E4F53DE1BC90F91004D2263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pargi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnormak.Pargi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E4F53E01BC90F91004D2263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PargiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnormak.PargiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pargi.app/Pargi";
+			};
+			name = Debug;
+		};
+		8E4F53E11BC90F91004D2263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PargiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnormak.PargiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pargi.app/Pargi";
+			};
+			name = Release;
+		};
+		8E4F53E31BC90F91004D2263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PargiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnormak.PargiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pargi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8E4F53E41BC90F91004D2263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PargiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hnormak.PargiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pargi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E4F53AC1BC90F91004D2263 /* Build configuration list for PBXProject "Pargi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4F53DA1BC90F91004D2263 /* Debug */,
+				8E4F53DB1BC90F91004D2263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4F53DC1BC90F91004D2263 /* Build configuration list for PBXNativeTarget "Pargi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4F53DD1BC90F91004D2263 /* Debug */,
+				8E4F53DE1BC90F91004D2263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4F53DF1BC90F91004D2263 /* Build configuration list for PBXNativeTarget "PargiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4F53E01BC90F91004D2263 /* Debug */,
+				8E4F53E11BC90F91004D2263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4F53E21BC90F91004D2263 /* Build configuration list for PBXNativeTarget "PargiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E4F53E31BC90F91004D2263 /* Debug */,
+				8E4F53E41BC90F91004D2263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E4F53FB1BC913D1004D2263 /* Pargi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E4F53FC1BC913D1004D2263 /* Pargi.xcdatamodel */,
+			);
+			currentVersion = 8E4F53FC1BC913D1004D2263 /* Pargi.xcdatamodel */;
+			path = Pargi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E4F53A91BC90F91004D2263 /* Project object */;
+}
