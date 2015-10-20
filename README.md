@@ -1,10 +1,14 @@
 # Pargi
 
-Pargi rakendus iPhone'le. Pargi on sinu abimees mobiilsel parkimisel, siin toimub Pargi modernseks muutmine ning seeläbi ka Swifti populariseerimine, eesti keeles, eesti kasutajale. Lühidalt on eesmärgiks luua rakendus, millega saab kasutaja parkida oma auto vähem kui 10 sekundiga ning mille kasutamine ei vaja ühegi konto loomist ega ühegi seadistuse seadmistamist. Luua rakendus avatult ning seeläbi tõstata arutelu Eestis tegutsevate iOSi arendajate ja rakendusi arendada soovivate inimeste vahel.
+Pargi rakendus iPhone'le. Pargi on sinu abimees mobiilsel parkimisel, siin toimub Pargi modernseks muutmine ning seeläbi ka Swifti populariseerimine, eesti keeles, eesti kasutajale. 
+
+Lühidalt on eesmärgiks luua rakendus, millega saab kasutaja parkida oma auto vähem kui 10 sekundiga ning mille kasutamine ei vaja ühegi konto loomist ega ühegi seadistuse seadmistamist. Luua rakendus avatult ning seeläbi tõstata arutelu Eestis tegutsevate iOSi arendajate ja rakendusi arendada soovivate inimeste vahel.
 
 ## Hetkeseis
 
-Projekt on algusfaasis, kogu olemasolev kood on kõrvale pandud ning alustatud on nullist. Hetkel on peamine fookus mudelil ja andmetel ning nende sobival vahendamisel veebist telefoni. Parklate andmed ise leiad [siit](https://github.com/pargi/data). Eesmärgiks on kasutada võimalikult palju Swiftile iseloomulikke ja uudseid võtteid, eesmärgiga muuta kood seeläbi loetavamaks ja paremaks näidiseks sellest, milleks Swift võimeline on. Näiteks, mudelikihi puhul eelistatakse klassidele struktuure ning eesmärgiks on pakkuda nii täpset tüübikindlust kui võimalik.
+Projekt on algusfaasis, kogu olemasolev kood on kõrvale pandud ning alustatud on nullist. Hetkel on peamine fookus mudelil ja andmetel ning nende sobival vahendamisel veebist telefoni. Parklate andmed ise leiad [siit](https://github.com/pargi/data). 
+
+Eesmärgiks on kasutada võimalikult palju Swiftile iseloomulikke ja uudseid võtteid, eesmärgiga muuta kood seeläbi loetavamaks ja paremaks näidiseks sellest, milleks Swift võimeline on. Näiteks, mudelikihi puhul eelistatakse klassidele struktuure ning eesmärgiks on pakkuda nii täpset tüübikindlust kui võimalik.
 
 Esialgne tööplaan:
 
