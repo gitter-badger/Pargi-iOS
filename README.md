@@ -1,5 +1,7 @@
 # Pargi
 
+[![Join the chat at https://gitter.im/Pargi/Pargi-iOS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Pargi/Pargi-iOS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Pargi rakendus iPhone'le. Pargi on sinu abimees mobiilsel parkimisel, siin toimub Pargi modernseks muutmine ning seeläbi ka Swifti populariseerimine, eesti keeles, eesti kasutajale. 
 
 Lühidalt on eesmärgiks luua rakendus, millega saab kasutaja parkida oma auto vähem kui 10 sekundiga ning mille kasutamine ei vaja ühegi konto loomist ega ühegi seadistuse seadmistamist. Luua rakendus avatult ning seeläbi tõstata arutelu Eestis tegutsevate iOSi arendajate ja rakendusi arendada soovivate inimeste vahel.
